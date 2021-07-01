@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="测试套件" duration-ms="5811" started-at="2021-07-01T09:55:15Z" finished-at="2021-07-01T09:55:21Z">
+    <groups>
+    </groups>
+    <test name="Himalaya接口测试" duration-ms="5811" started-at="2021-07-01T09:55:15Z" finished-at="2021-07-01T09:55:21Z">
+      <class name="com.himalaya.api.userguide.Onboarding">
+        <test-method status="PASS" signature="postRecommendAlbums()[pri:0, instance:com.himalaya.api.userguide.Onboarding@6b44435b]" name="postRecommendAlbums" duration-ms="5579" started-at="2021-07-01T09:55:15Z" description="新手引导_推荐专辑" finished-at="2021-07-01T09:55:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postRecommendAlbums -->
+      </class> <!-- com.himalaya.api.userguide.Onboarding -->
+      <class name="com.himalaya.api.subscribe.Subscribe">
+        <test-method status="PASS" signature="querySubscribe()[pri:0, instance:com.himalaya.api.subscribe.Subscribe@b6b1987]" name="querySubscribe" duration-ms="5553" started-at="2021-07-01T09:55:15Z" description="查询订阅" finished-at="2021-07-01T09:55:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- querySubscribe -->
+      </class> <!-- com.himalaya.api.subscribe.Subscribe -->
+      <class name="com.himalaya.api.hipointsweb.Membership">
+        <test-method status="PASS" signature="getMembershipUnactive()[pri:0, instance:com.himalaya.api.hipointsweb.Membership@2a2c13a8]" name="getMembershipUnactive" duration-ms="5534" started-at="2021-07-01T09:55:15Z" description="membership失效会员" finished-at="2021-07-01T09:55:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMembershipUnactive -->
+        <test-method status="PASS" signature="getMembershipActiveDay()[pri:0, instance:com.himalaya.api.hipointsweb.Membership@2a2c13a8]" name="getMembershipActiveDay" duration-ms="5552" started-at="2021-07-01T09:55:15Z" description="查询用户激活membership（返回大会员权益天数）" finished-at="2021-07-01T09:55:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMembershipActiveDay -->
+        <test-method status="PASS" signature="getMembershipActive()[pri:0, instance:com.himalaya.api.hipointsweb.Membership@2a2c13a8]" name="getMembershipActive" duration-ms="5573" started-at="2021-07-01T09:55:15Z" description="membership有效会员" finished-at="2021-07-01T09:55:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMembershipActive -->
+      </class> <!-- com.himalaya.api.hipointsweb.Membership -->
+    </test> <!-- Himalaya接口测试 -->
+  </suite> <!-- 测试套件 -->
+</testng-results>

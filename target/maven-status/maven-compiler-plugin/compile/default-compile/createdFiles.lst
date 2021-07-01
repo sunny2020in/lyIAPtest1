@@ -1,0 +1,13 @@
+test/sample/DependentGroupsTest.class
+com/test/api/test3.class
+test/sample/OtherTest.class
+test/sample/DependentMethodsTest.class
+test/sample/TagTest.class
+com/himalaya/api/hipointsweb/Membership.class
+com/test/api/dome.class
+com/himalaya/api/userguide/Onboarding.class
+com/test/api/test1.class
+test/sample/DataProviderTest.class
+com/himalaya/api/subscribe/Subscribe.class
+test/sample/DataProviderTest2.class
+com/test/api/test2.class

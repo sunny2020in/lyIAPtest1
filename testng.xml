@@ -1,0 +1,73 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="测试套件" verbose="1" parallel="methods" thread-count="10">
+
+    <test name="Himalaya接口测试" preserve-order="true">
+
+        <classes>
+            <class name="com.himalaya.api.hipointsweb.Membership">
+            <methods>
+                <include name="getMembershipActiveDay"/>
+                <include name="getMembershipActive"/>
+                <include name="getMembershipUnactive"/>
+            </methods>
+            </class>
+
+            <class name="com.himalaya.api.subscribe.Subscribe">
+                <methods>
+                    <include name="querySubscribe"/>
+                </methods>
+            </class>
+
+            <class name="com.himalaya.api.userguide.Onboarding"/>
+
+        </classes>
+    </test>
+
+
+<!--    <test name="简单测试1" preserve-order="true">-->
+
+<!--        <classes>-->
+<!--            <class name="com.test.api.test2"/>-->
+<!--            <class name="com.test.api.test1">-->
+<!--                <methods>-->
+<!--                    <include name="GetParam"/>-->
+<!--                    <include name="postRecommendAlbums"/>-->
+<!--                    <include name="getMembershipActive"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+
+<!--        </classes>-->
+<!--    </test>-->
+
+
+<!--    <test name="简单测试2">-->
+<!--        <classes>-->
+<!--            <class name="com.test.api.test3"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+
+<!--    <test name="简单测试3">-->
+
+<!--        <parameter name="add1" value="3"/>-->
+<!--        <parameter name="add2" value="2"/>-->
+<!--        <parameter name="result" value="5"/>-->
+
+<!--        <groups>-->
+<!--            <run>-->
+<!--                <exclude name="异常"/>   &lt;!&ndash; 排除不执行的测试用例 &ndash;&gt;-->
+<!--                <include name="功能测试"/>  &lt;!&ndash; 指定执行的测试用例 &ndash;&gt;-->
+<!--            </run>-->
+<!--        </groups>-->
+
+<!--        <classes>-->
+<!--            <class name="test.sample.TagTest"/>-->
+<!--            <class name="test.sample.DataProviderTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+</suite>
+
+
+
+
